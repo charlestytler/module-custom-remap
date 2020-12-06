@@ -1,0 +1,95 @@
+{
+  "Master Mode Panel": {
+    "MASTER_CAUTION_LT": {
+      "category": "Master Mode Panel",
+      "control_type": "led",
+      "description": "MASTER CAUTION",
+      "identifier": "MASTER_CAUTION_LT",
+      "inputs": [],
+      "outputs": [
+        {
+          "address": 29704,
+          "description": "0 if light is off, 1 if light is on",
+          "mask": 512,
+          "max_value": 1,
+          "shift_by": 9,
+          "suffix": "",
+          "type": "integer"
+        }
+      ]
+    },
+    "MASTER_WARNING_LT": {
+      "category": "Master Mode Panel",
+      "control_type": "led",
+      "description": "MASTER WARNING",
+      "identifier": "MASTER_WARNING_LT",
+      "inputs": [],
+      "outputs": [
+        {
+          "address": 29704,
+          "description": "0 if light is off, 1 if light is on",
+          "mask": 1024,
+          "max_value": 1,
+          "shift_by": 10,
+          "suffix": "",
+          "type": "integer"
+        }
+      ]
+    },
+
+    "MASTER_MODE_AA_LT": {
+      "category": "Master Mode Panel",
+      "control_type": "led",
+      "description": "AA Light",
+      "identifier": "MASTER_MODE_AA_LT",
+      "inputs": [],
+      "outputs": [
+        {
+          "address": 29708,
+          "description": "0 if light is off, 1 if light is on",
+          "mask": 512,
+          "max_value": 1,
+          "shift_by": 9,
+          "suffix": "",
+          "type": "integer"
+        }
+      ]
+    },
+    "MASTER_MODE_NAV_LT": {
+      "category": "Master Mode Panel",
+      "control_type": "led",
+      "description": "AG Light",
+      "identifier": "MASTER_MODE_NAV_LT",
+      "inputs": [],
+      "outputs": [
+        {
+          "address": 29708,
+          "description": "0 if light is off, 1 if light is on",
+          "mask": 1024,
+          "max_value": 1,
+          "shift_by": 10,
+          "suffix": "",
+          "type": "integer"
+        }
+      ]
+    },
+    "MASTER_MODE_AG_LT": {
+      "category": "Master Mode Panel",
+      "control_type": "led",
+      "description": "AG Light",
+      "identifier": "MASTER_MODE_AG_LT",
+      "inputs": [],
+      "outputs": [
+        {
+          "address": 29708,
+          "description": "0 if light is off, 1 if light is on",
+          "mask": 1024,
+          "max_value": 1,
+          "shift_by": 10,
+          "suffix": "",
+          "type": "integer"
+        }
+      ]
+    }
+  }
+}

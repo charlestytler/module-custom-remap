@@ -58,7 +58,7 @@
     "MASTER_MODE_NAV_LT": {
       "category": "Master Mode Panel",
       "control_type": "led",
-      "description": "AG Light",
+      "description": "Nav Light",
       "identifier": "MASTER_MODE_NAV_LT",
       "inputs": [],
       "outputs": [

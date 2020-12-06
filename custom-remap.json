@@ -63,7 +63,7 @@
       "inputs": [],
       "outputs": [
         {
-          "address": 29708,
+          "address": 29709,
           "description": "0 if light is off, 1 if light is on",
           "mask": 1024,
           "max_value": 1,
